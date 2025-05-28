@@ -98,7 +98,7 @@ header {
 
 .main-nav {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .main-nav a {
@@ -116,7 +116,7 @@ header {
 
 .main-nav a:hover {
     background-color: var(--accent2-color);
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .history h2 {
