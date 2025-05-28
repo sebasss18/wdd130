@@ -19,7 +19,7 @@ body {
 }
 
 header, main, footer {
-    width: 840px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -121,6 +121,7 @@ header {
 .history h2 {
     text-align: center;
     font-size: 50px;
+    padding: 20px 10px 50px 10px;
 }
 
 .history-content {
@@ -151,10 +152,11 @@ header {
 .adventure h2 {
     text-align: center;
     font-size: 28px;
+    padding: 10px;
 }
 
 .adventure img {
-    width: 150px;
+    width: 250px;
 }
 
 footer {
