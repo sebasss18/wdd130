@@ -19,8 +19,7 @@ body {
 }
 
 header, main, footer {
-    max-width: 1600px;
-    width: 100%;
+    width: 840px;
     margin: 0 auto;
 }
 
