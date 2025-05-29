@@ -3,7 +3,7 @@
 	--secondary-color: #627236;
 	--accent1-color: #8b6a50;
 	--accent2-color: #283618;
-    --heading-font: "Cabin", sans-serif;
+    --heading-font: "Bree Serif", serif;
     --body-font: "Roboto", sans-serif;
 }
 
@@ -121,7 +121,7 @@ header {
 .history h2 {
     text-align: center;
     font-size: 50px;
-    padding: 20px 10px 50px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 .history-content {
