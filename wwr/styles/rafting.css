@@ -19,7 +19,7 @@ body {
 }
 
 header, main, footer {
-    width: 840px;
+    max-width: 840px;
     margin: 0 auto;
 }
 
@@ -47,15 +47,17 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
-    top: 20px;
+    top: 0px;
     width: 100%;
-    padding: 16px;
+    padding: 15px 32px 24px 32px;
     text-align: center;
     background-color: var(--accent1-color);
     color: #fff;
     font-size: 70px;
+    letter-spacing: 3px;
+    border-radius: 0 0 20px 20px;
 }
 
 .hero article {
@@ -176,4 +178,178 @@ footer {
 figure {
     text-align: center;
     font-size: 12px;
+}
+/*Main Part*/
+
+
+/*Contact Us*/
+
+main {
+    width: 840px;
+}
+
+.contact {
+    background-color: #8b6a50;
+    padding: 15px 32px 24px 32px;
+    border-radius: 0 0 20px 20px; 
+}
+
+.contact h1 {
+    color: #fff;
+    text-align: left;
+    font-size: 80px;
+    margin-bottom: 3px;
+}
+
+.contact h2 {
+    color: #fff;
+    text-align: left;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding-left: 8px;
+}
+
+.company-information {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 16px 0 0 0;
+}
+
+.company-information p,
+.company-information a {
+    margin: 0;
+    font-size: 1.1em;
+    line-height: 0.1;
+    color: #fff;
+    font-family: var(--body-font);
+}
+
+.map iframe {
+    width: 100%;
+    max-width: 500px;
+    height: 336px;
+    display: block;
+    margin: 5px auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 10px solid var(--primary-color);
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid var(--secondary-color);
+    padding: 5px;
+}
+
+label {
+    font-size: 20px;
+}
+
+legend {
+    font-size: 20px;
+    
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 15px;
+    padding: 20px;
+    border: 2px solid var(--accent1-color);
+    border-radius: 15px;
+}
+
+form {
+    display: grid;
+    width: 100%;
+    margin: 25px auto;
+    padding: 10px;
+    border: 5px dashed var(--primary-color);
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+form button {
+    padding: 5px;
+    margin: 1rem;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+    background-color: white;
+    transition: background-color 0.35s ease, color 0.35s ease, border 0.35s ease, transform 0.35s ease;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #ADC178;
+    transform: scale(1.1);
+    transition: 0.35s ease;
+    border: 2px solid var(--secondary-color);
+    color: white;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.feedback textarea {
+    width: 700px;
+    min-height: 50px;
+    max-height: 100px;
+    resize: vertical;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid var(--secondary-color);
+}
+
+.feedback label {
+    align-self: center;
+}
+
+.subscription {
+    padding: 10px;
+    text-align: center;
+}
+
+#subscription:hover {
+    transform: scale(1.2);
+    transition: 0.20s;
+}
+
+#subscription {
+    width: 12px;
+    height: 12px;
+}
+
+.map {
+    float: right;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.employees {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.employees img {
+    width: 150px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 10px solid var(--primary-color);
 }
