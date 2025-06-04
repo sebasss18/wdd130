@@ -195,6 +195,7 @@ main {
 }
 
 .contact h1 {
+    font-family: var(--heading-font);
     color: #fff;
     text-align: left;
     font-size: 80px;
@@ -208,6 +209,11 @@ main {
     font-weight: normal;
     letter-spacing: 1px;
     padding-left: 8px;
+}
+
+.contact h1, .contact h2 {
+    margin: 0;
+    padding: 0;
 }
 
 .company-information {
@@ -352,4 +358,8 @@ button:hover {
     margin: 10px;
     border-radius: 15px;
     border: 10px solid var(--primary-color);
+}
+
+footer p a {
+    color: var(--primary-color);
 }
