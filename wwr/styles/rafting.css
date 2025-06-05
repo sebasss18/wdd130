@@ -45,6 +45,7 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 0 0 20px 20px;
 }
 
 .hero h1 {
@@ -156,9 +157,10 @@ header {
 }
 
 .adventure img {
-    width: 250px;
+    height: 100%;
+    width: 150px;
     border-radius: 15px;
-    border: 10px solid var(--primary-color);
+    border: 5px solid var(--primary-color);
 }
 
 footer {
