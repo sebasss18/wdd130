@@ -156,7 +156,9 @@ header {
 }
 
 .adventure img {
-    width: 150px;
+    width: 250px;
+    border-radius: 15px;
+    border: 10px solid var(--primary-color);
 }
 
 footer {
@@ -183,11 +185,6 @@ figure {
 
 
 /*Contact Us*/
-
-main {
-    width: 840px;
-}
-
 .contact {
     background-color: #8b6a50;
     padding: 15px 32px 24px 32px;
@@ -237,10 +234,10 @@ main {
 .map iframe {
     width: 100%;
     max-width: 500px;
-    height: 336px;
+    height: 345px;
     display: block;
     margin: 5px auto;
-    margin-top: 10px;
+    margin-left: 20px;
     border-radius: 15px;
     border: 10px solid var(--primary-color);
 }
@@ -260,18 +257,20 @@ legend {
     
 }
 
-fieldset {
+form fieldset {
     display: grid;
     grid-gap: 15px;
     padding: 20px;
     border: 2px solid var(--accent1-color);
     border-radius: 15px;
-    margin: 10px;
+    margin: 0 0 10px 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 form {
     display: grid;
-    width: 100%;
+    width: 70%;
     margin: 25px auto;
     padding: 10px;
     border: 5px dashed var(--primary-color);
@@ -314,7 +313,7 @@ button:hover {
 }
 
 .feedback textarea {
-    width: 700px;
+    width: 500px;
     min-height: 50px;
     max-height: 100px;
     resize: vertical;
@@ -343,20 +342,17 @@ button:hover {
 }
 
 .map {
-    float: right;
-    width: 50%;
+    width: 100%;
     padding-bottom: 15px;
 }
 
 .employees {
-    float: left;
-    width: 50%;
+    width: 100%;
     box-sizing: border-box;
-    align-items: center;
 }
 
 .employees img {
-    width: 150px;
+    width: 156px;
     margin: 10px;
     border-radius: 15px;
     border: 10px solid var(--primary-color);
@@ -364,4 +360,11 @@ button:hover {
 
 footer p a {
     color: var(--primary-color);
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
 }
