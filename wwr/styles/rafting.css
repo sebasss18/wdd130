@@ -111,7 +111,7 @@ header {
     text-decoration: none;
     font-weight: bold;
     font-size: large;
-    transition: transform 0.35s ease;
+    transition: background-color 0.35s ease, transform 0.35s ease;
 }
 
 .main-nav a:hover {
@@ -234,8 +234,8 @@ figure {
 }
 
 .map iframe {
-    width: 90%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 350px;
     height: 345px;
     display: block;
     margin: 5px auto;
@@ -301,7 +301,6 @@ form button {
 button:hover {
     background-color: #ADC178;
     transform: scale(1.1);
-    transition: 0.35s ease;
     border: 2px solid var(--secondary-color);
     color: white;
 }
@@ -344,18 +343,23 @@ button:hover {
 }
 
 .map {
-    width: 100%;
+    width: 350px;
     padding-bottom: 15px;
 }
 
 .employees {
-    width: 100%;
-    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 8px;
+    justify-content: flex-start;
+    align-items: start;
+    margin-right: 60px;
 }
 
 .employees img {
-    width: 156px;
-    margin: 10px;
+    max-width: 156px;
+    margin: 8px;
     border-radius: 15px;
     border: 10px solid var(--primary-color);
 }
@@ -370,3 +374,4 @@ footer p a {
     align-items: flex-start;
     gap: 30px;
 }
+
