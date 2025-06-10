@@ -1,8 +1,8 @@
 :root {
 	--primary-color: #ADC178;
 	--secondary-color: #627236;
-	--accent1-color: #6c5340;
-	--accent2-color: #283618;
+	--accent1-color: #644b37;
+	--accent2-color: #253017;
     --heading-font: "Bree Serif", serif;
     --body-font: "Roboto", sans-serif;
 }
@@ -46,7 +46,7 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 30px 30px;
 }
 
 .hero h1 {
@@ -59,7 +59,7 @@ nav, p, section, article {
     color: #fff;
     font-size: 100px;
     letter-spacing: 3px;
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 30px 30px;
 }
 
 .hero article {
@@ -193,7 +193,7 @@ figure {
 .contact {
     background-color: var(--accent1-color);
     padding: 15px 32px 24px 32px;
-    border-radius: 0 0 20px 20px; 
+    border-radius: 0 0 30px 30px; 
     margin-bottom: 10px;
 }
 
@@ -368,7 +368,7 @@ button:hover {
 }
 
 footer p a {
-    color: var(--secondary-color);
+    color: #181e0f;
 }
 
 .info-row {
@@ -478,7 +478,7 @@ footer p a {
     position: absolute;
     left: 12px;
     top: 12px;
-    color: #8b6a50;
+    color: var(--accent1-color);
     transition: 0.3s ease all;
     font-size: 1rem;
 }
