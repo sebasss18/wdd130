@@ -191,7 +191,7 @@ figure {
 
 /*Contact Us*/
 .contact {
-    background-color: #8b6a50;
+    background-color: var(--accent1-color);
     padding: 15px 32px 24px 32px;
     border-radius: 0 0 20px 20px; 
     margin-bottom: 10px;
@@ -380,7 +380,7 @@ footer p a {
 
 /*Home Page*/
 .home {
-    background-color: #8b6a50;
+    background-color: var(--accent1-color);
     padding: 15px 32px 40px 32px;
     margin-bottom: 0;
 }
@@ -432,7 +432,7 @@ footer p a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #8b6a50; 
+    background: var(--accent1-color); 
     width: 600px !important;
     padding: 30px 40px;
     border-radius: 15px;
@@ -545,7 +545,7 @@ footer p a {
 .trips-btn {
     display: inline-block;
     padding: 12px 32px;
-    background-color: #8b6a50;
+    background-color: var(--accent1-color);
     color: #fff;
     border: none;
     border-radius: 15px;
