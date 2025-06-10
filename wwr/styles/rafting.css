@@ -247,11 +247,6 @@ figure {
     border: 10px solid var(--primary-color);
 }
 
-input {
-    border-radius: 5px;
-    border: 1px solid var(--secondary-color);
-    padding: 5px;
-}
 
 label {
     font-size: 20px;
@@ -392,7 +387,7 @@ footer p a {
     font-size: 80px;
 }
 
-.hero-video video {
+.hero-image img {
     display: block;
     width: 100%;
     height: auto;
@@ -400,8 +395,7 @@ footer p a {
     margin: 0 auto;
 }
 
-.main-page, 
-.hero.video {
+.main-page {
     margin-top: 0;
     margin-bottom: 20px;
     margin-right: 0;
@@ -412,7 +406,7 @@ footer p a {
     padding-left: 0;
 }
 
-.hero-video h2 {
+.hero-image h2 {
     position: absolute;
     top: 15%;
     left: 50%;
@@ -423,11 +417,11 @@ footer p a {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
 
-.hero-video {
+.hero-image {
     position: relative;
 }
 
-.hero-video form {
+.hero-image form {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -442,7 +436,7 @@ footer p a {
     border: 5px solid var(--accent1-color);
 }
 
-.hero-video form fieldset {
+.hero-image form fieldset {
     display: grid;
     grid-gap: 15px;
     padding: 20px;
@@ -453,8 +447,8 @@ footer p a {
     box-sizing: border-box;
 }
 
-.hero-video form input[type="text"],
-.hero-video form input[type="email"] {
+.hero-image form input[type="text"],
+.hero-image form input[type="email"] {
     width: 90%;
 }
 
@@ -492,7 +486,7 @@ footer p a {
     padding: 0 4px;
 }
 
-.hero-video form button {
+.hero-image form button {
     padding: 5px;
     margin: 1rem;
     border-radius: 15px;
@@ -565,6 +559,7 @@ footer p a {
 }
 
 .content p {
+    margin: 5px;
     font-size: 25px;
     text-align: justify;
     direction: ltr;
@@ -572,9 +567,10 @@ footer p a {
 
 .content h2 {
     text-align: center;
+    font-size: 50px;
 }
 
-.purpose {
+.our-purpose {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -596,10 +592,10 @@ footer p a {
     direction: ltr;
 }
 
-.purpose img, .offerings img {
+.our-purpose img, .offerings img {
     width: 100%;
     max-width: 500px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 15px;
     border: 10px solid var(--primary-color);
 }
