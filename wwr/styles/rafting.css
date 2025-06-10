@@ -479,7 +479,6 @@ footer p a {
     top: 12px;
     color: #8b6a50;
     transition: 0.3s ease all;
-    pointer-events: none;
     font-size: 1rem;
 }
 
