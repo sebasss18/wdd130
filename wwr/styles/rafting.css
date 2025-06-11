@@ -301,6 +301,7 @@ button:hover {
     transform: scale(1.1);
     border: 2px solid var(--secondary-color);
     color: white;
+    cursor: pointer;
 }
 
 .feedback {
@@ -377,7 +378,10 @@ footer p a {
 .home {
     background-color: var(--accent1-color);
     padding: 15px 32px 40px 32px;
-    margin-bottom: 0;
+    border-radius: 0 0 30px 30px;
+    margin-bottom: -30px;
+    z-index: 1;
+    position: relative;
 }
 
 .home h1 {
@@ -393,6 +397,7 @@ footer p a {
     height: auto;
     border-radius: 0 0 20px 20px;
     margin: 0 auto;
+    z-index: 3;
 }
 
 .main-page {
@@ -408,11 +413,11 @@ footer p a {
 
 .hero-image h2 {
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 4rem;
+    font-size: 4.1rem;
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
@@ -423,7 +428,7 @@ footer p a {
 
 .hero-image form {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: var(--accent1-color); 
@@ -518,6 +523,7 @@ footer p a {
 .cta h2 {
     text-align: center;
     font-size: 50px;
+    margin-top: 75px;
 }
 
 .cta img {
@@ -598,4 +604,139 @@ footer p a {
     height: auto;
     border-radius: 15px;
     border: 10px solid var(--primary-color);
+}
+
+/*Trips*/
+
+.trips {
+    background-color: var(--accent1-color);
+    padding: 15px 32px 24px 32px;
+    border-radius: 0 0 30px 30px; 
+    margin-bottom: 10px;
+}
+
+.trips h1 {
+    color: white;
+    font-size: 80px;
+}
+
+.cta-trip {
+    text-align: center;
+}
+
+.cta-trip h2 {
+    font-size: 80px;
+}
+
+.contact-us-btn {
+    display: inline-block;
+    padding: 12px 32px;
+    background-color: var(--accent1-color);
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: width 0.3s, background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+}
+.contact-us-btn:hover {
+    background-color: var(--accent2-color);
+    transform: scale(1.2);
+    width: 250px;
+}
+
+.lakes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lakes img {
+    width: 350px;
+    height: 250px;
+    max-width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.lakes figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    margin: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.lakes figure:hover {
+    transform: scale(1.1);
+}
+
+.lakes figure figcaption {
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: white;
+    border-radius: 0 0 15px 15px;
+    margin-top: 0px;
+    padding-top: 0;
+}
+
+.lakes figure figcaption h3 {
+    margin-top: 8px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.lakes figure figcaption p {
+    margin: 0px 5px 5px 5px;
+    color: solid white;
+    text-align: left;
+    font-size: 12px;
+}
+.trip-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.trip-table h2 {
+    font-size: 70px;
+    text-align: center;
+    margin: 10px;
+}
+
+.trip-table table {
+    width: 100%;
+    max-width: 1000px;
+    background-color: rgb(255, 249, 232);
+    border-radius: 15px;
+    overflow: hidden;
+    color: var(--accent1-color);
+}
+
+.trip-table th, .trip-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ffffff;
+}
+
+.trip-table th {
+    background-color: var(--accent1-color);
+    color: white;
 }
