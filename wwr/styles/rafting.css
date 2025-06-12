@@ -618,6 +618,7 @@ footer p a {
 .trips h1 {
     color: white;
     font-size: 80px;
+    margin: 20px;
 }
 
 .cta-trip {
@@ -625,7 +626,8 @@ footer p a {
 }
 
 .cta-trip h2 {
-    font-size: 80px;
+    font-size: 100px;
+    margin: 40px;
 }
 
 .contact-us-btn {
@@ -635,7 +637,7 @@ footer p a {
     color: #fff;
     border: none;
     border-radius: 15px;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
     transition: width 0.3s, background-color 0.3s, transform 0.3s;
@@ -643,12 +645,13 @@ footer p a {
     margin-top: 15px;
     text-align: center;
     width: 100%;
-    max-width: 250px;
+    max-width: 300px;
+    padding: 10px;
 }
 .contact-us-btn:hover {
     background-color: var(--accent2-color);
     transform: scale(1.2);
-    width: 250px;
+    width: 320px;
 }
 
 .lakes {
@@ -677,7 +680,7 @@ footer p a {
     align-items: center;
     width: 260px;
     margin: 20px;
-    transition: background-color 0.3s, transform 0.3s;
+    transition: filter 0.3s, transform 0.3s;
 }
 
 .lakes figure:hover {
@@ -719,7 +722,7 @@ footer p a {
 .trip-table h2 {
     font-size: 70px;
     text-align: center;
-    margin: 10px;
+    margin: 40px;
 }
 
 .trip-table table {
