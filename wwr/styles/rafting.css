@@ -646,13 +646,10 @@ footer p a {
     text-align: center;
     width: 100%;
     max-width: 300px;
-    padding: 10px;
 }
 .contact-us-btn:hover {
     background-color: var(--accent2-color);
-    transform: scale(1.2);
-    width: 320px;
-}
+    transform: scale(1.2);}
 
 .lakes {
     display: flex;
